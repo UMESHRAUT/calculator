@@ -7,9 +7,9 @@ export default class KeyPad extends Component{
       return(
         <div className="buttons">
             <button name='C' className="function" onClick={this.buttonPressed}>C</button>
-            <button name='%' className="function" onClick={this.buttonPressed}>%</button>
             <button name='(' className="function" onClick={this.buttonPressed}>(</button>
             <button name=')' className="function" onClick={this.buttonPressed}>)</button>
+            <button name='+' className="function" onClick={this.buttonPressed}>+</button>
             <button name='1' onClick={this.buttonPressed}>1</button>
             <button name='2'onClick={this.buttonPressed}>2</button>
             <button name='3'onClick={this.buttonPressed}>3</button>
